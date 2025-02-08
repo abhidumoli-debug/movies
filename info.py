@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'BOOSTERFLIX')
 API_ID = int(environ.get('API_ID', '25939780'))
 API_HASH = environ.get('API_HASH', '9d25ddde025c03018e801a9ad983db7e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8177133633:AAGYfWByQ8Io62l2Cwr6-POAkSv3a_nv6Fw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5355366738').split()]
